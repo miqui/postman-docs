@@ -66,14 +66,13 @@ The button imports and opens a copy of your collection of API endpoints directly
 
     [![generate code](https://assets.postman.com/postman-docs/github4.png)](https://assets.postman.com/postman-docs/github4.png)
 
-
 ![Create a button](https://assets.postman.com/postman-docs/Creating+RIP+button+gif.gif)
 
 Your embed code will include your collection's ID. In the examples below, `:collection_id` is a placeholder for that ID.
 
 > If you choose to include an environment in your button, the code will also have the environment parameter.
       [![run in postman button code](https://assets.postman.com/postman-docs/runinpostmanbuttoncode.png)](https://assets.postman.com/postman-docs/runinpostmanbuttoncode.png)
-     
+
 **Sample markdown snippet:**
 
 ```bash
