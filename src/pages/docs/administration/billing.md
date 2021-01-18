@@ -1,6 +1,6 @@
 ---
 title: "Billing"
-order: 252
+order: 123
 page_id: "billing"
 tags: 
   - "pro"
@@ -15,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Announcing updated Postman plans and pricing"
-    url: "https://blog.postman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
+    url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"
 
 ---
 
@@ -34,6 +34,8 @@ Postman provides a self-serve billing process. Refer to the following sections f
 * [Payments](#payments)
 
     * [Managing cards](#managing-cards)
+
+    * [Paying by invoice](#paying-by-invoice)
 
     * [Adding custom information to invoices](#adding-custom-information-to-invoices)
 
@@ -77,7 +79,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Overages**. 
 
 [![monitoring overages](https://assets.postman.com/postman-docs/monitoring-overages.jpg)](https://assets.postman.com/postman-docs/monitoring-overages.jpg)
 
-> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/postman/monitors/intro-monitors/#pricing).
+> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).
 
 ## Payments
 
@@ -95,6 +97,12 @@ To set a card as default, hover over the card and **Set as Default**.
 
 [![payment methods](https://assets.postman.com/postman-docs/payment-methods.jpg)](https://assets.postman.com/postman-docs/payment-methods.jpg)
 
+### Paying by invoice
+
+Invoicing is available to Postman Business and Enterprise teams. New customers can [email the Postman Sales team](mailto:sales@postman.com) to get started. Existing customers can [submit a request](https://support.getpostman.com/hc/en-us) to be invoiced instead of automatically charged.
+
+You can pay invoices online, via check, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
+
 ### Adding custom information to invoices
 
 To add or edit the information on an invoice, navigate to your [billing dashboard](http://go.postman.co/billing) and select **Invoices** > **Edit Invoice Details** > **Billing Details**.
@@ -111,7 +119,7 @@ If you have a card on file, Postman will automatically attempt 3 times to charge
 
 If payment is unsuccessful, Postman offers a grace period of 10 days to avoid service disruption. For invoice-based teams, this means 10 days following the due date listed on the invoice.
 
-> All team members are notified in the event of non-payment and subsequent service deactivation in the Postman app.
+> All team members are notified in the event of non-payment and subsequent service deactivation in Postman.
 
 ## Team and plan changes
 
@@ -119,9 +127,11 @@ You can change your team's plan and billing cycle in the [billing dashboard](htt
 
 ### Changing your plan
 
-To change your plan, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
+To change your plan immediately, navigate to your [billing dashboard](https://app.postman.co/billing/overview) and click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
+
+> The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
 ### Setting instructions for next billing cycle
 
@@ -151,6 +161,6 @@ To purchase monitoring blocks, visit your [monitoring usage details](http://go.p
 
 ## Next steps
 
-For information on team management, see [Managing your team](/docs/postman/collaboration/team-settings/).
+For information on team management, see [Managing your team](/docs/administration/managing-your-team/).
 
-To learn more about the billing team role, see [Roles and Permissions](/docs/postman/collaboration/roles-and-permissions/).
+To learn more about the billing team role, see [Roles and Permissions](/docs/collaborating-in-postman/roles-and-permissions/).

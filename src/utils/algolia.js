@@ -15,6 +15,9 @@ const pageQuery = `{
   ) {
     edges {
       node {
+        headings(depth: h3) {
+          value
+        }
         frontmatter {
           title
           search_keyword
@@ -28,7 +31,7 @@ const pageQuery = `{
           slug
         }
         excerpt(
-          pruneLength: 5000
+          pruneLength: 6700
         )
       }
     }
@@ -40,9 +43,7 @@ const flatten = (arr) => arr.map(({ node: { frontmatter, ...rest } }) => ({
   ...rest,
 }));
 
-
 const settings = { attributesToSnippet: ['excerpt:20'] };
-
 
 const queries = [
   {

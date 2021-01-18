@@ -1,6 +1,6 @@
 ---
 title: "Purchasing Postman"
-order: 251
+order: 122
 page_id: "buying"
 warning: false
 contextual_links:
@@ -13,7 +13,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Announcing updated Postman plans and pricing"
-    url: "https://blog.postman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
+    url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -44,4 +44,4 @@ Once your plan configuration is in place you can enter your payment details. __Y
 
 You can manage your account in the [Postman billing](/docs/administration/billing/) dashboard, for example if you need to [change or upgrade](/docs/administration/billing/#team-and-plan-changes) your plan.
 
-Once your account is set up, you can leverage Postman features including additional [collaboration](/docs/postman/collaboration/collaboration-intro/) and [monitoring](/docs/postman/monitors/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).
+Once your account is set up, you can leverage Postman features including additional [collaboration](/docs/collaborating-in-postman/collaboration-intro/) and [monitoring](/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).
